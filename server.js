@@ -22,8 +22,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api', require('./server/routes/api'));
 
 
-// getting port value from config.env file else port value is 8080
-const PORT = process.env.PORT || 8080;
+// getting port value from config.env file else port value is 3000
+const PORT = process.env.PORT || 3000;
 // getting hostname from .env file else hostname is localhost
 const HOSTNAME = process.env.HOSTNAME || 'localhost';
 
