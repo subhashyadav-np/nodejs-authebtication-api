@@ -1,10 +1,11 @@
 # nodejs-authebtication-api
 
-A complete nodejs user authentication api (Login/Register/Logout/AuthenticatedAPI) from scratch
+A complete nodejs user authentication api ( Login / Register / Logout / AuthenticatedAPI ) from scratch using expressjs, mongoose, jsonwebtoken, bcryptjs
+
 
 ## Practice_Login_Register_Using_This_API
+https://jcimipr4qj.execute-api.us-east-2.amazonaws.com/   
 
-https://i1h8xwb305.execute-api.us-east-2.amazonaws.com/
 
 ## For_User_Registration
 
