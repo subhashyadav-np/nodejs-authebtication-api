@@ -18,6 +18,25 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
+app.get('/', (request, response) => {
+    response.status(200).json({
+        api_routes: [
+            {
+                'post': '/api/user/register'
+            },
+            {
+                'post': '/api/user/login'
+            },
+            {
+                'get': '/api/user/dashboard'
+            },
+            {
+                'get': '/api/logout'
+            }
+        ]
+    })
+})
+
 // load routers
 app.use('/api', require('./server/routes/api'));
 
